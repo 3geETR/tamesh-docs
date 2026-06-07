@@ -44,7 +44,4 @@ markdown_extensions:
 plugins:
   - search
 
-watch:
-  - mkdocs
-
 copyright: Copyright &copy; 2014 MkDocs Team
