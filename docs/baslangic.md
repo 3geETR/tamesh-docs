@@ -1,10 +1,10 @@
 # Başlangıç
 
-TAMesh ağına katılmanın iki farklı yolu vardır. İhtiyacınıza ve teknik bilginize göre size uygun olan yöntemi seçebilirsiniz.
+Meshtastic'e başlamak için öncelikle bir cihaz edinmeniz gerekir. Cihaz edinmek için ihtiyacınıza ve teknik bilginize göre size uygun olan yöntemi seçebilirsiniz.
 
-## 1. Hazır Cihazlar (Önerilir)
+## 1. Hazır Cihazlar
 
-Eğer lehimleme, elektronik veya yazılım yükleme gibi işlemlerle uğraşmak istemiyorsanız hazır bir Meshtastic cihazı satın alabilirsiniz. Bu cihazlar kutudan çıktığı gibi kullanılabilir ve yalnızca Meshtastic uygulaması ile eşleştirilmeleri yeterlidir.
+Eğer lehimleme, elektronik gibi işlemlerle uğraşmak istemiyorsanız hazır bir Meshtastic cihazı satın alabilirsiniz. Bu cihazlar kutudan çıktığı gibi kullanılabilir ve yalnızca Meshtastic uygulaması ile eşleştirilmeleri yeterlidir.
 
 👉 **Devam etmek için:** [Hazır Cihazlar](hazir-cihazlar.md) sayfasına göz atın.
 
@@ -12,27 +12,21 @@ Eğer lehimleme, elektronik veya yazılım yükleme gibi işlemlerle uğraşmak 
 
 ## 2. DIY (Kendin Yap)
 
-Kendi Meshtastic düğümünüzü oluşturmak istiyorsanız DIY seçeneğini tercih edebilirsiniz. Bu yöntem daha ekonomiktir ve donanım üzerinde tam kontrol sağlar.
+Kendi Meshtastic düğümünüzü oluşturmak istiyorsanız DIY seçeneğini tercih edebilirsiniz. Eğer az da olsa elektronik bilginiz varsa ve lehim yapabiliyorsanız DIY olarak cihaz yapabilirsiniz.
 
-DIY için en yaygın iki platform bulunmaktadır:
+DIY için en yaygın iki farklı kart kullanılmaktadır:
 
-| | ESP32 | nRF52840 |
-|---|-------|----------|
-| 💰 Fiyat | Daha uygun fiyatlıdır. | Daha pahalıdır. |
-| 🔋 Güç tüketimi | Daha yüksektir. | Daha düşüktür. |
-| 📶 Kablosuz | Wi-Fi ve Bluetooth içerir. | Bluetooth içerir, Wi-Fi bulunmaz. |
-| 🔌 Programlama | USB üzerinden kolayca programlanabilir. | USB üzerinden programlanabilir. |
-| 🏠 Kullanım senaryosu | Sabit istasyonlar ve genel kullanım için idealdir. | Taşınabilir ve uzun pil ömrü gerektiren cihazlar için idealdir. |
+| ESP32 | nRF52840 |
+|-------|----------|
+| Güç tüketimi nRF52840'a göre oldukça yüksektir. | Çok daha düşük güç tüketimine sahiptir. |
+| Wi-Fi ve Bluetooth içerir. | Bluetooth içerir, Wi-Fi bulunmaz. |
+| Güç konusunda sorun yaşamayacağınız sabit istasyonlar ve genel kullanım için idealdir. | Uzun pil ömrü gerektiren cihazlar, solar ile çalışan düğümler için idealdir. |
 
 ### Hangisini Seçmeliyim?
 
-- **İlk kez Meshtastic kullanacaksanız:** ESP32 ile başlamanız önerilir.
+- **İlk kez Meshtastic kullanacaksanız:** Hem nRF52840 hem de ESP32 kullanabilirsiniz.
 - **Uzun pil ömrü önceliğinizse:** nRF52840 daha iyi bir seçim olacaktır.
-- **Sabit bir röle (Router) veya ev düğümü kuracaksanız:** ESP32 genellikle daha uygundur.
-- **Taşınabilir el cihazı yapmak istiyorsanız:** nRF52840 tercih edilebilir.
-
-!!! tip "İpucu"
-    Hangi donanımı alacağınıza karar vermeden önce [Parça Listesi](diy/parca-listesi.md) sayfasına göz atın.
+- **Sabit bir röle (Router) veya ev düğümü kuracaksanız:** nRF52840 güç tüketimi dolayısıyla daha uygundur.
 
 ## Sonraki Adımlar
 

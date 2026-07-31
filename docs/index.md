@@ -1,33 +1,19 @@
 # TAMesh
 
-Türkiye'deki Meshtastic topluluğu için hazırlanmış dokümantasyon sayfasına hoş geldiniz.
+Türkiye'deki Meshtastic kullanıcıları için hazırlanmış Türkçe dokümantasyona hoş geldiniz.
 
-Meshtastic, 915/868 MHz gibi lisanssız bantlarda çalışan, akıllı telefon ile Bluetooth veya Wi-Fi üzerinden iletişim kuran, açık kaynaklı bir **uzun menzilli düşük güçlü mesh radyo ağı**dır. Cep telefonu şebekesine ihtiyaç duymadan, kilometrelerce mesafeden cihazdan cihaza mesajlaşma ve konum paylaşımı sağlar.
+Bu dokümantasyonda Meshtastic'ın nasıl çalıştığını, hangi cihazların kullanılabileceğini ve kendi düğümünüzü nasıl kurabileceğinizi adım adım bulabilirsiniz.
 
-## Neden TAMesh?
+## Meshtastic Nedir?
 
-- 📡 **Şebekeden bağımsız:** Operatör şebekesi olmayan bölgelerde bile çalışır.
-- 🔓 **Açık kaynak:** Yazılımı ve protokolü tamamen açıktır.
-- 🔋 **Düşük güç tüketimi:** Pil ile günlerce çalışabilir.
-- 🔒 **Uçtan uca şifreleme:** Mesajlarınız korunur.
-- 🧩 **Modüler:** Hazır cihazlardan tamamen kendiniz ürettiğiniz donanıma kadar geniş bir yelpaze.
+Meshtastic, LoRa teknolojisini kullanarak cihazların birbirleriyle doğrudan haberleşmesini sağlayan açık kaynaklı bir mesh ağ sistemidir. İnternet veya cep telefonu şebekesine ihtiyaç duymadan mesajlaşma, konum paylaşımı ve veri iletimi yapılabilir.
 
-## Nasıl Başlarım?
+## Nereden Başlamalıyım?
 
-Başlamak için iki yolunuz var:
+Meshtastic ağına katılmanın iki yolu vardır:
 
-- [🛒 Hazır Cihazlar](hazir-cihazlar.md): Lehimleme veya kurulum gerektirmeyen, kutudan çıktığı gibi çalışan cihazlar.
-- [🔧 DIY (Kendin Yap)](baslangic.md): Kendi düğümünüzü sıfırdan oluşturmak istiyorsanız rehberlerimizi takip edin.
+- [🛒 Hazır Cihazlar](hazir-cihazlar.md) — Satın alıp doğrudan kullanabileceğiniz cihazlar.
+- [🔧 DIY (Kendin Yap)](baslangic.md) — Kendi Meshtastic cihazınızı oluşturmak isteyenler için rehberler.
 
-!!! tip "Yeni başladınız mı?"
-    Kararsız kaldıysanız [Başlangıç](baslangic.md) sayfasından kendinize uygun yolu seçebilirsiniz.
-
-## Sonraki Adımlar
-
-| Bölüm | Açıklama |
-|-------|----------|
-| [Başlangıç](baslangic.md) | Ağa katılmanın iki farklı yolunu karşılaştırır |
-| [Hazır Cihazlar](hazir-cihazlar.md) | Satın alıp hemen kullanabileceğiniz cihaz önerileri |
-| [DIY - ESP32](diy/esp32.md) | ESP32 tabanlı düğüm kurulum rehberi |
-| [DIY - nRF52840](diy/nrf52840.md) | nRF52840 tabanlı düğüm kurulum rehberi |
-| [Parça Listesi](diy/parca-listesi.md) | DIY projeleri için parça önerileri |
+!!! tip "İlk kez kullanıyorsanız"
+    Hangi yöntemin size uygun olduğundan emin değilseniz **[Başlangıç](baslangic.md)** sayfasına göz atabilirsiniz.
