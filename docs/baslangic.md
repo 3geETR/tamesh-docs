@@ -6,7 +6,7 @@ Meshtastic'e başlamak için öncelikle bir cihaz edinmeniz gerekir. Cihaz edinm
 
 Eğer lehimleme, elektronik gibi işlemlerle uğraşmak istemiyorsanız hazır bir Meshtastic cihazı satın alabilirsiniz. Bu cihazlar kutudan çıktığı gibi kullanılabilir ve yalnızca Meshtastic uygulaması ile eşleştirilmeleri yeterlidir.
 
-👉 **Devam etmek için:** [Hazır Cihazlar](cihazlar/hazir-cihazlar.md) sayfasına göz atın.
+👉 **Devam etmek için:** [Hazır Cihazlar](hazir-cihazlar.md) sayfasına göz atın.
 
 ---
 
@@ -32,8 +32,8 @@ DIY için en yaygın iki farklı kart kullanılmaktadır:
 
 Seçiminize göre aşağıdaki rehberlerden devam edebilirsiniz:
 
-- 📦 [Hazır Cihazlar](cihazlar/hazir-cihazlar.md)
+- 📦 [Hazır Cihazlar](hazir-cihazlar.md)
 - 📻 [Frekans Seçimi](frekans-secimi.md)
-- 🔧 [DIY - ESP32 Kurulumu](cihazlar/diy/esp32.md)
-- 🔋 [DIY - nRF52840 Kurulumu](cihazlar/diy/nrf52840.md)
-- 🛒 [DIY Parça Listesi](cihazlar/diy/parca-listesi.md)
+- 🔧 [DIY - ESP32 Kurulumu](diy/esp32.md)
+- 🔋 [DIY - nRF52840 Kurulumu](diy/nrf52840.md)
+- 🛒 [DIY Parça Listesi](diy/parca-listesi.md)

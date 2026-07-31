@@ -19,7 +19,7 @@ Hazır cihazlar şu şekilde kullanılır:
 - **Kapsama ihtiyacınız:** Ağaçlık ve engebeli arazide menzil düşebilir; daha yüksek anten kalitesine sahip modelleri tercih edin.
 - **Pil ömrü:** Taşınabilir bir cihaz arıyorsanız büyük pili ve düşük güç tüketimi olan modelleri seçin.
 - **Form faktörü:** Sabit bir röle için ev tipi modeller, gezinti için elde taşınabilir modeller uygundur.
-- **Bant:** Türkiye'de kullanılan frekans bantları için [Frekans Seçimi](../frekans-secimi.md) sayfasına bakın.
+- **Bant:** Türkiye'de kullanılan frekans bantları için [Frekans Seçimi](frekans-secimi.md) sayfasına bakın.
 
 ## Önerilen Hazır Cihazlar
 
@@ -44,5 +44,5 @@ Hazır cihazlarda firmware genellikle yüklü gelir, ancak güncellemek istersen
 
 ## Sonraki Adımlar
 
-- [Başlangıç](../baslangic.md) sayfasına dönerek DIY yolunu da inceleyin.
+- [Başlangıç](baslangic.md) sayfasına dönerek DIY yolunu da inceleyin.
 - [Parça Listesi](diy/parca-listesi.md) ile aksesuar ve yedek parça önerilerine göz atın.

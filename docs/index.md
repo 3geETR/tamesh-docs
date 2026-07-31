@@ -12,7 +12,7 @@ Meshtastic, LoRa teknolojisini kullanarak cihazların birbirleriyle doğrudan ha
 
 Meshtastic ağına katılmanın iki yolu vardır:
 
-- [🛒 Hazır Cihazlar](cihazlar/hazir-cihazlar.md) — Satın alıp doğrudan kullanabileceğiniz cihazlar.
+- [🛒 Hazır Cihazlar](hazir-cihazlar.md) — Satın alıp doğrudan kullanabileceğiniz cihazlar.
 - [🔧 DIY (Kendin Yap)](baslangic.md) — Kendi Meshtastic cihazınızı oluşturmak isteyenler için rehberler.
 
 !!! tip "İlk kez kullanıyorsanız"
