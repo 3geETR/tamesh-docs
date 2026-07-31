@@ -28,6 +28,26 @@ DIY için en yaygın iki farklı kart kullanılmaktadır:
 - **Uzun pil ömrü önceliğinizse:** nRF52840 daha iyi bir seçim olacaktır.
 - **Sabit bir röle (Router) veya ev düğümü kuracaksanız:** nRF52840 güç tüketimi dolayısıyla daha uygundur.
 
+## Frekans Seçimi
+
+Meshtastic cihazları LoRa radyo teknolojisini kullanır ve bölgeye göre belirlenen lisanssız frekans bantlarında çalışır. Cihazınızı ilk kez kurarken doğru bölgeyi seçmeniz gerekir; aksi takdirde diğer düğümlerle haberleşemezsiniz.
+
+Türkiye'de kullanılan bant **868 MHz (EU868)** bölgesidir. Bu ayar, Meshtastic mobil uygulamasından **Bölge (Region)** olarak yapılır ve genellikle kurulum sırasında bir kez seçilir.
+
+### Yaygın Bölgeler
+
+| Bölge | Frekans | Kullanıldığı yerler |
+|-------|---------|---------------------|
+| Eu868 | 868 MHz | Türkiye ve Avrupa |
+| Eu433 | 433 MHz | Avrupa'nın bazı bölgeleri |
+| US | 915 MHz | ABD ve Amerika kıtası |
+
+!!! warning "Dikkat"
+    Ülkenize göre yasal olmayan bir bant seçmek hem cihazınızın diğer düğümlerle haberleşmesini engeller hem de yasal sorunlara yol açabilir. Türkiye'de **Eu868** bölgesini kullanın.
+
+!!! tip "İpucu"
+    Donanım alırken ürünün **868 MHz (EU)** bandında çalıştığından emin olun. Yanlış bantta çalışan bir cihaz, başka bölgedeki düğümlerle haberleşemez.
+
 ## Sonraki Adımlar
 
 Seçiminize göre aşağıdaki rehberlerden devam edebilirsiniz:
