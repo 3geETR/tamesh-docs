@@ -17,4 +17,4 @@ Türkiye'de yasal olarak kullanılan bantlar **868 MHz (EU868)** ve **433 MHz (E
 ## Sonraki Adımlar
 
 - [DIY - ESP32 Kurulumu](diy/esp32.md) ve [DIY - nRF52840 Kurulumu](diy/nrf52840.md) sayfalarında bölge ayarının nasıl yapıldığını bulabilirsiniz.
-- Cihaz edinme seçenekleri için [Başlangıç](baslangic.md) sayfasına dönebilirsiniz.
+- Cihaz edinme seçenekleri için [Başlangıç](index.md) sayfasına dönebilirsiniz.

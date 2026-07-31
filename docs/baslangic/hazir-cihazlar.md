@@ -44,5 +44,5 @@ Hazır cihazlarda firmware genellikle yüklü gelir, ancak güncellemek istersen
 
 ## Sonraki Adımlar
 
-- [Başlangıç](baslangic.md) sayfasına dönerek DIY yolunu da inceleyin.
+- [Başlangıç](index.md) sayfasına dönerek DIY yolunu da inceleyin.
 - [Parça Listesi](diy/parca-listesi.md) ile aksesuar ve yedek parça önerilerine göz atın.
