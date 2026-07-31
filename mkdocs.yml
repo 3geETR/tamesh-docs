@@ -1,47 +1,78 @@
-site_name: Tamesh Docs
-site_url: https://3gee.is-a.dev/tamesh-docs/
-site_description: Project documentation with Markdown.
-site_author: Tamesh
-
-repo_url: https://github.com/mkdocs/mkdocs/
+site_name: TAMesh
+site_description: TAMesh - Türkiye Meshtastic Topluluğu Dokümantasyonu
+site_url: https://3geetr.github.io/tamesh-docs/
+repo_url: https://github.com/3geetr/tamesh-docs
+repo_name: 3geetr/tamesh-docs
 edit_uri: edit/main/docs/
 
 theme:
-  name: mkdocs
-  locale: en
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - django
-
-nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - User Guide: user-guide/
-  - Developer Guide: dev-guide/
-  - About:
-      - Release Notes: about/release-notes.md
-      - Contributing: about/contributing.md
-      - License: about/license.md
-
-extra_css:
-  - css/extra.css
-
-exclude_docs: |
-  *.py
+  name: material
+  language: tr
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Aydınlık moda geç
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Karanlık moda geç
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Sistem tercihine geç
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
   - toc:
       permalink: true
-  - attr_list
-  - def_list
-  - tables
-  - pymdownx.highlight:
-      use_pygments: true
-  - pymdownx.superfences
-  - pymdownx.snippets
+      title: İçindekiler
 
 plugins:
   - search
 
-copyright: Copyright &copy; 2014 MkDocs Team
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/3geetr
+      name: GitHub
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/meshtastic_tr
+      name: Telegram
+
+copyright: Copyright &copy; 2026 TAMesh
+
+nav:
+  - Ana Sayfa: index.md
+  - Başlangıç: baslangic.md
+  - Hazır Cihazlar: hazir-cihazlar.md
+  - DIY (Kendin Yap):
+      - ESP32 Kurulumu: diy/esp32.md
+      - nRF52840 Kurulumu: diy/nrf52840.md
+      - Parça Listesi: diy/parca-listesi.md
