@@ -60,7 +60,7 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 
 | Ayar | Öneri |
 |------|-------|
-| Bölge | Türkiye için uygun bölgeyi seçin ([Frekans Seçimi](../frekans-secimi.md)) |
+| Bölge | Türkiye için uygun bölgeyi seçin ([Frekans Seçimi](../../frekans-secimi.md)) |
 | Düğüm adı | Örn. `TAMesh-EvDugumu` |
 | Kanal | Ağ ile uyumlu ortak kanalı kullanın |
 | Konum | Yayınlama istiyorsanız açın |
