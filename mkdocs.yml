@@ -6,6 +6,8 @@ repo_name: 3geetr/tamesh-docs
 edit_uri: edit/main/docs/
 
 theme:
+  logo: assets/tamesh.svg
+  favicon: assets/tamesh.svg
   name: material
   language: tr
   features:
@@ -13,6 +15,7 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.footer
+    - navigation.indexes
     - toc.follow
     - search.suggest
     - search.highlight
@@ -54,7 +57,6 @@ markdown_extensions:
       title: İçindekiler
 
 plugins:
-  - section-index
   - search
 
 
@@ -73,13 +75,13 @@ copyright: Copyright &copy; 2026 TAMesh
 nav:
   - Ana Sayfa: index.md
   - Başlangıç:
-      - baslangic/index.md
+      - Başlangıç: baslangic/index.md
       - Frekans Seçimi: baslangic/frekans-secimi.md
       - Hazır Cihazlar: baslangic/hazir-cihazlar.md
       - DIY (Kendin Yap):
           - ESP32 Kurulumu: baslangic/diy/esp32.md
           - nRF52840 Kurulumu: baslangic/diy/nrf52840.md
           - Parça Listesi: baslangic/diy/parca-listesi.md
-  - Rehberler:
-      - Yazılım Yükleme/Güncelleme: rehberler/yazilim.md
-      - İlk Kurulum: rehberler/ilk-kurulum.md
+  - Kurulum:
+      - Yazılım Yükleme/Güncelleme: kurulum/yazilim.md
+      - İlk Ayarlar: kurulum/ilk-ayarlar.md

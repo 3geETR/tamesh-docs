@@ -44,7 +44,11 @@ Meshtastic Web Flasher aracına erişmek için:
 ## Sorun Giderme
 
 ### Cihaz Algılanmıyor?
-
-- USB kablonuzun veri transferi desteklediğinden emin olun
-- Farklı bir USB bağlantı noktası deneyin
-- Windows için CH340 ya da CP210x sürücülerinin yüklü olduğunu kontrol edin. Kullandığınız cihazın sürücüsünü [resmi Meshtastic dokümanlarından](https://meshtastic.org/docs/getting-started/serial-drivers/) tespit edip yükleyebilirsiniz.
+=== "ESP32"
+    - Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](#sorun-giderme) bölümüne bakabilirsiniz.
+    - USB kablonuzun veri transferi desteklediğinden emin olun
+    - Farklı bir USB bağlantı noktası deneyin
+=== "nRF52840"
+    - nRF52840 cihazlarda cihazı programlama moduna almak için reset düğmesine 2 kez basmanız gerekebilir. Kartınız UF2 desteklemiyorsa nRF Connect Programmer ile yükleyebilirsiniz.
+    - USB kablonuzun veri transferi desteklediğinden emin olun
+    - Farklı bir USB bağlantı noktası deneyin

@@ -22,7 +22,7 @@ DIY için en yaygın iki farklı kart kullanılmaktadır:
 | Wi-Fi ve Bluetooth içerir. | Bluetooth içerir, Wi-Fi bulunmaz. |
 | Güç konusunda sorun yaşamayacağınız sabit istasyonlar ve genel kullanım için idealdir. | Uzun pil ömrü gerektiren cihazlar, solar ile çalışan düğümler için idealdir. |
 
-### Hangisini Seçmeliyim?
+### Hangisini Seçmeliyim(nRF52840 & ESP32)?
 
 - **İlk kez Meshtastic kullanacaksanız:** Hem nRF52840 hem de ESP32 kullanabilirsiniz.
 - **Uzun pil ömrü önceliğinizse:** nRF52840 daha iyi bir seçim olacaktır.

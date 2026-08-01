@@ -32,15 +32,18 @@ Hazır cihazlar şu şekilde kullanılır:
 | Heltec V3 | Wi-Fi + LoRa, düşük fiyat | Sabit röle / genel kullanım |
 | RAK WisBlock | Modüler, profesyonel kalite | Kalıcı kurulumlar |
 
-!!! warning "Uyarı"
-    Sahte ve uyumsuz klon cihazlara dikkat edin. Mümkünse resmi Meshtastic mağazalarından veya güvenilir satıcılardan alışveriş yapın.
+## Yazılım Yükleme
 
-## Kurulum
+Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılır. [Yazılım Yükleme/Güncelleme](../kurulum/yazilim.md) rehberini takip ederek cihazınıza firmware'i yükleyin.
 
-Hazır cihazlarda firmware genellikle yüklü gelir, ancak güncellemek isterseniz:
+!!! note "Not"
+    Kartınızı seçerken doğru hedef platformu seçtiğinizden emin olun (ör. `heltec-v3`, `tlora-v2` gibi). Yanlış firmware cihazı çalıştırmayabilir.
 
-1. [Meshtastic Firmware](https://meshtastic.org/docs/software/flashing/) sayfasından cihazınıza uygun son sürümü indirin.
-2. Telefon uygulaması üzerinden veya USB ile kablosuz güncelleme (OTA) yapabilirsiniz.
+!!! warning "Bağlantı sorunları"
+    === "ESP32"
+        Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](../kurulum/yazilim.md#sorun-giderme) bölümüne bakabilirsiniz.
+    === "nRF52840"
+        nRF52840 cihazlarda cihazı programlama moduna almak için reset düğmesine 2 kez basmanız gerekebilir. Kartınız UF2 desteklemiyorsa nRF Connect Programmer ile yükleyebilirsiniz.
 
 ## Sonraki Adımlar
 

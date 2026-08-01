@@ -1,4 +1,4 @@
-# DIY - ESP32 Kurulumu
+# DIY - ESP32 Cihaz Yapımı
 
 ESP32, fiyat-performans açısından DIY Meshtastic düğümleri için en popüler platformdur. Wi-Fi ve Bluetooth desteği sayesinde yapılandırması ve güncellenmesi kolaydır.
 
@@ -7,22 +7,21 @@ ESP32, fiyat-performans açısından DIY Meshtastic düğümleri için en popül
 
 ## İhtiyacınız Olanlar
 
-- ESP32 tabanlı bir LoRa geliştirme kartı (ör. Heltec V3, LILYGO T-Beam)
-- 868 MHz için uygun bir LoRa anteni
-- USB veri kablosu
-- Bilgisayar
+- ESP32 geliştirme kartı
+- Meshtastic ile uyumlu bir LoRa modulü
+- Lehim ekipmanları
 
 Detaylı parça önerileri için [Parça Listesi](parca-listesi.md) sayfasına bakın.
 
-## 1. Firmware Yükleme
+## 1. Yazılım Yükleme
 
-Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılır. [Yazılım Yükleme/Güncelleme](../../rehberler/yazilim.md) rehberini takip ederek cihazınıza firmware'i yükleyin.
+Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılır. [Yazılım Yükleme/Güncelleme](../../kurulum/yazilim.md) rehberini takip ederek cihazınıza firmware'i yükleyin.
 
 !!! note "Not"
     Kartınızı seçerken doğru hedef platformu seçtiğinizden emin olun (ör. `heltec-v3`, `tlora-v2` gibi). Yanlış firmware cihazı çalıştırmayabilir.
 
-!!! warning "Sürücü sorunları"
-    Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](../../rehberler/yazilim.md#sorun-giderme) bölümüne bakabilirsiniz.
+!!! warning "Bağlantı sorunları"
+    Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](../../kurulum/yazilim.md#sorun-giderme) bölümüne bakabilirsiniz.
 
 ## 2. Anteni Bağlayın
 
