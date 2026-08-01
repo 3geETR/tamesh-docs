@@ -21,7 +21,7 @@ Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılı
     Kartınızı seçerken doğru hedef platformu seçtiğinizden emin olun (ör. `heltec-v3`, `tlora-v2` gibi). Yanlış firmware cihazı çalıştırmayabilir.
 
 !!! warning "Bağlantı sorunları"
-    Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](../../kurulum/yazilim.md#sorun-giderme) bölümüne bakabilirsiniz.
+    Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun.
 
 ## 2. Anteni Bağlayın
 

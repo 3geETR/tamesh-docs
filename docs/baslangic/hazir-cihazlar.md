@@ -41,7 +41,7 @@ Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılı
 
 !!! warning "Bağlantı sorunları"
     === "ESP32"
-        Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](../kurulum/yazilim.md#sorun-giderme) bölümüne bakabilirsiniz.
+        Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun.
     === "nRF52840"
         nRF52840 cihazlarda cihazı programlama moduna almak için reset düğmesine 2 kez basmanız gerekebilir. Kartınız UF2 desteklemiyorsa nRF Connect Programmer ile yükleyebilirsiniz.
 

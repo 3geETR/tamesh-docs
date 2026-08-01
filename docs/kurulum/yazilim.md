@@ -45,7 +45,7 @@ Meshtastic Web Flasher aracına erişmek için:
 
 ### Cihaz Algılanmıyor?
 === "ESP32"
-    - Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun; ayrıca [Sorun Giderme](#sorun-giderme) bölümüne bakabilirsiniz.
+    - Bazı ESP32 kartları için CP210x veya CH340 USB sürücülerinin kurulu olması gerekir. Cihaz bilgisayarda görünmüyorsa önce sürücüleri kurun.
     - USB kablonuzun veri transferi desteklediğinden emin olun
     - Farklı bir USB bağlantı noktası deneyin
 === "nRF52840"
