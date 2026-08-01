@@ -1,11 +1,13 @@
 site_name: TAMesh
 site_description: TAMesh - Türkiye Meshtastic Topluluğu Dokümantasyonu
-site_url: https://3geetr.github.io/tamesh-docs/
+site_url: https://3geetr.is-a.dev/tamesh-docs/
 repo_url: https://github.com/3geetr/tamesh-docs
 repo_name: 3geetr/tamesh-docs
 edit_uri: edit/main/docs/
 
 theme:
+  logo: assets/tamesh.svg
+  favicon: assets/tamesh.svg
   name: material
   language: tr
   features:
@@ -13,6 +15,7 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.footer
+    - navigation.indexes
     - toc.follow
     - search.suggest
     - search.highlight
@@ -54,9 +57,10 @@ markdown_extensions:
       title: İçindekiler
 
 plugins:
-  - section-index
   - search
 
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   generator: false
@@ -71,7 +75,6 @@ extra:
 copyright: Copyright &copy; 2026 TAMesh
 
 nav:
-  - Ana Sayfa: index.md
   - Başlangıç:
       - baslangic/index.md
       - Frekans Seçimi: baslangic/frekans-secimi.md
