@@ -11,6 +11,9 @@ Cihazınızı yapılandırmak için akıllı telefonunuza **Meshtastic** uygulam
 
 Uygulamayı açın ve cihazınızı Bluetooth üzerinden bağlayın.
 
+!!! danger "Dikkat"
+    LoRa anteni bağlı olmadan cihazı asla açmayın. Antensiz çalışma, radyo modülüne kalıcı zarar verebilir.
+
 ## TAMesh Kanalı
 
 TAMesh topluluğu varsayılan **LongFast** kanalını değil, **kendi kanalını** kullanır. Ağa katılabilmek için cihazınızın TAMesh kanalına bağlanması gerekir.
@@ -56,4 +59,4 @@ Cihazınızın frekansına göre aşağıdaki bağlantılardan birini telefonunu
 
 ## Sonraki Adımlar
 
-- [MQTT sunucusu için şifre edinmek ve bağlanmak.](../mqtt)
+- [MQTT sunucusu için şifre edinmek ve bağlanmak.](mqtt.md)

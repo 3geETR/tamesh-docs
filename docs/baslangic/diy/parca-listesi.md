@@ -2,53 +2,25 @@
 
 Kendi Meshtastic düğümünüzü oluşturmak için ihtiyaç duyabileceğiniz parçaları burada topladık. Liste, hem [ESP32](esp32.md) hem de [nRF52840](nrf52840.md) tabanlı kurulumlar için öneriler içerir.
 
-!!! tip "Nereden Alınır?"
-    Parçaları yerel elektronik mağazalarından veya online alışveriş sitelerinden (AliExpress, Amazon, resmi üretici mağazaları) temin edebilirsiniz. Resmi mağazaları tercih etmek sahte ürün riskini azaltır.
-
-## ESP32 Tabanlı Kurulum
-
-=== "Önerilenler"
-
-    | Parça | Önerilen Model | Açıklama |
-    |-------|----------------|----------|
-    | Geliştirme kartı | LILYGO T-Beam | Entegre GPS ve 18650 pil yuvası |
-    | Geliştirme kartı | Heltec V3 | Wi-Fi + LoRa, OLED ekran |
-    | Geliştirme kartı | LILYGO T-Deck | Klavye ve ekranlı mesajlaşma cihazı |
-    | Anten | 868 MHz SMA/IPEX anten | Uygun bantta çalışan bir anten şart |
-    | Pil | 18650 Li-ion veya 3.7V LiPo | Kapasite ihtiyacına göre seçin |
-    | Kutu | IP55/IP65 muhafaza | Sabit kurulumlar için su geçirmezlik önemli |
-    | Bağlantı | USB Type-C veri kablosu | Firmware yükleme ve şarj için |
-
-=== "Bütçe Alternatifi"
-
-    | Parça | Önerilen Model | Açıklama |
-    |-------|----------------|----------|
-    | Geliştirme kartı | TTGO LoRa32 | Ekransız daha ucuz bir ESP32 seçeneği |
-    | Anten | Ucuz 868 MHz coil anten | Giriş seviyesi yeterli olabilir |
-    | Pil | 18650 pil | En ekonomik enerji çözümü |
-
-## nRF52840 Tabanlı Kurulum
-
-=== "Önerilenler"
-
-    | Parça | Önerilen Model | Açıklama |
-    |-------|----------------|----------|
-    | Geliştirme kartı | LILYGO T-Echo | E-ink ekran, yüksek pil ömrü |
-    | Geliştirme kartı | RAK WisBlock | Modüler ve profesyonel kalite |
-    | Anten | 868 MHz SMA/IPEX anten | Uygun bantta çalışan bir anten şart |
-    | Pil | 3.7V LiPo (1000mAh+) | Taşınabilir kullanım için kapasite önemli |
-    | Kutu | Taşınabilir muhafaza | Taşınabilirlik ve koruma dengesi |
-
-## Ortak Aksesuarlar
-
-- **Şarj aleti:** Kartınıza uygun USB şarj cihazı.
-- **Yedek anten:** Farklı menzil ihtiyaçları için ikinci bir anten.
-- **GPS anteni:** Sabit kurulumlarda daha iyi konum için harici GPS anteni.
-
-!!! warning "Uyarı"
-    Anten ve radyo kartı satın alırken ürünün **868 MHz** (EU) bandında çalıştığından emin olun. Yanlış bantta çalışan donanım, hem yasal hem de teknik sorunlara yol açabilir.
+| Parça              | Önerilen Model                                                                                                                | Açıklama                                  |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
+| Geliştirme kartı   | [nRF52840 Promicro](https://robiz.net/nrf52840promicro)                                                                       | Popüler nRF52840 tabanlı geliştirme kartı |
+| Geliştirme kartı   | [nRF52840 Promicro](https://www.aletler.com.tr/urun/nrf52840-promicro-modul)                                                  | Popüler nRF52840 tabanlı geliştirme kartı |
+| Geliştirme kartı   | [nRF52840 Promicro](https://www.kartalotomasyon.com.tr/urun/nrf52840-dongle-ve-multi-protocol)                                | Popüler nRF52840 tabanlı geliştirme kartı |
+| Geliştirme Kartı   | [ESP32 Type C CH340](https://robiz.net/esp32typec?search=esp32&description=true)                                              | Type-C ESP32 geliştirme kartı             |
+| Geliştirme Kartı   | [ESP32-WROOM-32U](https://www.direnc.net/esp32-wroom-32u-wifi-bluetooth-gelistirme-board)                                     | Generic ESP32 geliştirme kartı            |
+| LoRa               | [Ra-02 SX1278 Dip Modül](https://robiz.net/ra02dip?search=lora%20&description=true)                                           | Lehimlemesi Kolay(433MHz)                 |
+| LoRa               | [Ra-02 SX1278 SMD](https://www.tlsrobotik.com/urun/lora-ra-02-sx1278-433mhz-yayilma-spektrumlu-kablosuz-alici-verici-modulu/) | SMD(433MHz)                               |
+| LoRa               | [Ra-01SC-P LLCC68 SMD](https://robiz.net/ra01scp)                                                                             | Daha güncel SMD(433MHz)                   |
+| Anten              | [TYT Kısa Anten](https://baofengtelsiz.com/TYT-UV88-Standart-anten-erkek)                                                     |                                           |
+| Anten              | [TYT Uzun Anten](https://baofengtelsiz.com/TYT-Uzun-Anten-Dual-Bant)                                                          |                                           |
+| Dönüştürücü Kablo  | [Ipex SMA Dönüştürücü](https://www.direnc.net/ipex-sma-disi-kablo-15cm-1)                                                     | IPEX to SMA                               |
+| Dönüştürücü Kablo  | [Ipex - SMA-F Pigtail](https://www.motorobit.com/sma-ipex-1-donusturucu-kablo)                                                | IPEX to SMA                               |
+| PCB                | [Robotistan PCB Servisi](https://www.robotistan.com/pcb-servisi)                                                              |                                           |
+| Toplu Parça Temini | [Robotistan(LCSC)](https://www.robotistan.com/komponent-servis)                                                               | LCSC                                      |
+| Toplu Parça Temini | [E-Kom(Digi-Key)](https://www.e-kom.com/partner/digikey)                                                                      | Digi-Key                                  |
 
 ## Sonraki Adımlar
 
 - [ESP32 Kurulumu](esp32.md) ile kuruluma devam edin.
-- [nRF52840 Kurulumu](nrf52840.md) ile düşük güçlü kuruluma geçin.
+- [nRF52840 Kurulumu](nrf52840.md) ile kuruluma devam edin.

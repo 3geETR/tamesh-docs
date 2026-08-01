@@ -21,16 +21,15 @@ Hazır cihazlar şu şekilde kullanılır:
 - **Form faktörü:** Sabit bir röle için ev tipi modeller, gezinti için elde taşınabilir modeller uygundur.
 - **Bant:** Türkiye'de kullanılan frekans bantları için [Frekans Seçimi](frekans-secimi.md) sayfasına bakın.
 
-## Önerilen Hazır Cihazlar
+## Türkiyede Bulabileceğiniz Hazır Cihazlar
 
-| Cihaz | Öne Çıkan Özellikler | Uygun Senaryo |
-|-------|----------------------|---------------|
-| SenseCap T1000-E | Küçük, taşınabilir, GPS dahil | Taşınabilir el cihazı |
-| LILYGO T-Echo | E-ink ekran, nRF52840, uzun pil ömrü | Taşınabilir / düşük güç |
-| LILYGO T-Beam | GPS dahil ESP32, geniş topluluk desteği | Sabit / taşınabilir |
-| LILYGO T-Deck | Klavye + ekran, esp32-s3 | Mesajlaşma odaklı kullanım |
-| Heltec V3 | Wi-Fi + LoRa, düşük fiyat | Sabit röle / genel kullanım |
-| RAK WisBlock | Modüler, profesyonel kalite | Kalıcı kurulumlar |
+- [DeepLab Studio MicroMesh 433MHz](https://amzn.eu/d/04tcD37c)
+
+- [DeepLab Studio MiniMesh 433MHz](https://amzn.eu/d/0aZpSRX1)
+
+- [LILYGO ESP32 Geliştirme Kartları](https://motorobit.com/lilygo)
+
+- [TTGO ESP32 Geliştirme Kartı](https://www.direnc.net/esp-32-lora-gelistirme-board-wifi-kiti-096-inch-oled-ekranli)
 
 ## Yazılım Yükleme
 
@@ -48,4 +47,4 @@ Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılı
 ## Sonraki Adımlar
 
 - [Başlangıç](index.md) sayfasına dönerek DIY yolunu da inceleyin.
-- [Parça Listesi](diy/parca-listesi.md) ile aksesuar ve yedek parça önerilerine göz atın.
+- [İlk Ayarlar](../kurulum/ilk-ayarlar.md) sayfasına giderek ayarları yapın.

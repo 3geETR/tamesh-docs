@@ -29,7 +29,7 @@ Meshtastic yazılımının yüklenmesi tüm cihazlarda aynı adımlarla yapılı
 - Daha iyi menzil için harici bir anten tercih edin.
 
 !!! danger "Dikkat"
-    LoRa anteni bağlı olmadan cihazı asla açmayın. Antensiz çalışma, radyo modülüne (SX1262/SX1276) kalıcı zarar verebilir.
+    LoRa anteni bağlı olmadan cihazı asla açmayın. Antensiz çalışma, radyo modülüne kalıcı zarar verebilir.
 
 ## 3. Yapılandırma
 
