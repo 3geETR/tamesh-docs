@@ -20,22 +20,40 @@ TAMesh topluluğu varsayılan **LongFast** kanalını değil, **kendi kanalını
 
 ### Kanal Bağlantısı
 
-Cihazınızın frekansına göre aşağıdaki bağlantılardan **birini** telefonunuzda açın:
+Cihazınızın frekansına göre aşağıdaki bağlantılardan birini telefonunuzda açın:
 
 === "EU_433 Kanalı"
     433 MHz bandını kullananlar için:
 
-    [EU_433 Kanalına Katıl](https://meshtastic.org/e/#ChEaB1RBX01lc2goATABOgIIIBIYCAEQBDgCQANIAVAKWAFoAXUAkNhDyAYB)
+    [https://meshtastic.org/e/#ChEaB1RBX01lc2goATABOgIIIBIYCAEQBDgCQANIAVAKWAFoAXUAkNhDyAYB](https://meshtastic.org/e/#ChEaB1RBX01lc2goATABOgIIIBIYCAEQBDgCQANIAVAKWAFoAXUAkNhDyAYB)
 
 === "EU_868 Kanalı"
     868 MHz bandını kullananlar için:
 
-    [EU_868 Kanalına Katıl](https://meshtastic.org/e/#ChEaB1RBX01lc2goATABOgIIIBIRCAEQBDgDQANIAVAKaAHIBgE)
+    [https://meshtastic.org/e/#ChEaB1RBX01lc2goATABOgIIIBIRCAEQBDgDQANIAVAKaAHIBgE](https://meshtastic.org/e/#ChEaB1RBX01lc2goATABOgIIIBIRCAEQBDgDQANIAVAKaAHIBgE)
 
 !!! tip "İpucu"
-    Bağlantıyı telefonunuzda açtığınızda Meshtastic uygulaması kanalı otomatik algılar ve cihazınıza yüklemeyi önerir. Onaylamanız yeterlidir.
+    Bağlantıyı telefonunuzda açtığınızda Meshtastic uygulaması kanalı otomatik algılar ve cihazınıza yüklemeyi önerir. Onaylamanız yeterlidir. Fakat bazen ayarları tam uygulamayabilir; aşağıdaki tabloya göre doğrulayabilirsiniz.
+
+### Ayarları Doğrulama
+
+| Ayar | Değer |
+|---|---|
+| Region | EU433 / EU868 |
+| Use Preset | ✅ |
+| Preset | Medium Fast |
+| Ignore MQTT | ⛔ |
+| Ok to MQTT | ✅ |
+| Transmit Enabled | ✅ |
+| Override Duty Cycle | ⛔ |
+| Number Of Hops | 1 - 7 |
+| Frequency Slot | 1 |
+| Frequency Offset | 0 |
+| RX Boosted Gain | ✅ |
+| Frequency Override | 433.125 (EU433) / 869.525 (EU868) |
+| Transmit Power | 10 (EU433) / 22 (EU868) |
+
 
 ## Sonraki Adımlar
 
-- Cihazınızın konum paylaşımını açık tutun; böylece haritada görünürsünüz.
-- Pili daha uzun süre korumak için cihazınızın konum güncelleme sıklığını ayarlayabilirsiniz.
+- [MQTT sunucusu için şifre edinmek ve bağlanmak.](../mqtt)

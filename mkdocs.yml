@@ -85,3 +85,4 @@ nav:
   - Kurulum:
       - Yazılım Yükleme/Güncelleme: kurulum/yazilim.md
       - İlk Ayarlar: kurulum/ilk-ayarlar.md
+      - MQTT: kurulum/mqtt.md
